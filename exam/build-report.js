@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const results = (() => {
   try {
-    return require('./exam/exam.js');
+    return require('./exam.js');
   } catch (err) {
     return err;
   }
