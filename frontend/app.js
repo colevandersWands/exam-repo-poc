@@ -24,7 +24,7 @@ const actions = {
     }
 
     if (state.report.hasOwnProperty('four')) {
-      newEvaluation.three = state.report.four[0] === 'bye'
+      newEvaluation.four = state.report.four[0] === 'bye'
         ? "pass"
         : "fail";
     } else {
